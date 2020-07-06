@@ -1,15 +1,29 @@
 body {
-    background: #000000;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
-.font-lobster {
-    font-family: 'Lobster', cursive;
-    font-size: 70px;
-    position: absolute;
-    top: 20px;
-    
-    
+.logo {
+    width: 220px;
+    text-align: center;
 }
+
+.img-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    text-align: center;
+}
+
+
+.start {
+
+}
+
 
 #regressiva{
     color:#000000; 
@@ -17,17 +31,9 @@ body {
     font-weight: normal;
 }
 
-.regressiva {
-    background-color: yellow;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
+.start {
+    
     top: 0px;
     left: 0px;
-    z-index: 2000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
