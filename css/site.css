@@ -1,5 +1,14 @@
+body {
+    background: #000000;
+}
+
 .font-lobster {
     font-family: 'Lobster', cursive;
+    font-size: 70px;
+    position: absolute;
+    top: 20px;
+    
+    
 }
 
 #regressiva{
@@ -7,3 +16,18 @@
     font-size: 85px; 
     font-weight: normal;
 }
+
+.regressiva {
+    background-color: yellow;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
