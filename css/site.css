@@ -377,7 +377,7 @@ body {
   text-align: center;
 
   color: #ffffff;
-
+}
 #email-email {
   position: absolute;
   width: 237px;
@@ -396,15 +396,15 @@ body {
 }
 
 .button {
-margin: auto;
-text-decoration: none;
-color: #000;
-position: absolute;
-width: 410px;
-height: 69px;
-left: 479px;
-top: 3361px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+  position: absolute;
+  width: 410px;
+  height: 69px;
+  left: 479px;
+  top: 3361px;
 
-background: #EF711D;
-border-radius: 25px;
+  background: #ef711d;
+  border-radius: 25px;
 }
