@@ -362,6 +362,21 @@ body {
 
   color: #ffffff;
 }
+#melhor-email {
+  position: absolute;
+  width: 261px;
+  height: 60px;
+  left: 176px;
+  top: 150px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
 
 #email-email {
   position: absolute;
@@ -378,4 +393,18 @@ body {
   text-align: center;
 
   color: #ffffff;
+}
+
+.button {
+margin: auto;
+text-decoration: none;
+color: #000;
+position: absolute;
+width: 410px;
+height: 69px;
+left: 479px;
+top: 3361px;
+
+background: #EF711D;
+border-radius: 25px;
 }
