@@ -1,27 +1,25 @@
 
-// Set the date we're counting down to
-var countDownDate = new Date("April 25, 2022 12:00:00").getTime();
+var eventDate = new Date("July 8, 2020 20:00:00").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+// A cada 1s a regressiva dá update 
+var contador = setInterval(function() {
 
-  // Get todays date and time
-  var now = new Date().getTime();
+    var date = new Date().getTime();
+    var distance = eventDate - date;
 
-  // Find the distance between now an the count down date
-  var distance = countDownDate - now;
+  // Math.floor: Retorna o maior inteiro que é menor ou igual a um número.
+  // 60 milisecundos, minutos e (24 horas) para o dias 
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var dias = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var horas = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutos = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var segundos = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
-  document.getElementById("regressiva").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  // Contador aparece na tela
+  document.getElementById("regressiva").innerHTML = dias + "d " + horas + "h "
+  + minutos + "m " + segundos + "s ";
 
-  // If the count down is finished, write some text 
+  // Quando acaba a regressiva
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("regressiva").innerHTML = "Nossa live já ocorreu, fique por dentro em https://";
