@@ -349,7 +349,6 @@ body {
 /* figura background segunda pagina */
 .figura_02
 {
-    position: absolute;
     width: 1376px;
     height: 666px;
     left: 0px;
@@ -375,27 +374,52 @@ body {
     text-align: center;
 
     color: #EF711D;
+
+    margin-top: 80px;
 }
 
 /* figura organização financeira */
 .organizacao_financeira
 {
-    position: absolute;
+    position: relative;
     width: 170px;
     height: 164px;
-    
+    /* left: 0px;
+    top: 1589px; */
 
     background: url ("../img/organizacao_financeira.png");
 }
+.container-img{
+  width: 30%;
+  float: left;
+  text-align: center;
+}
 
+.container-text
+{
+  display: block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+
+}
+
+.imagens-alinhamento
+{  
+  display: flex;
+  margin-top: 145px;
+}
     
 /* figura investimentos diversos */
 .investimentos_diversos
 {
-    position: absolute;
+    /* position: absolute; */
     width: 207px;
     height: 152px;
-    left: 580px;
+    /* left: 580px; */
 
     background: url ("../img/investimentos_diversos.png");
 }
@@ -403,13 +427,15 @@ body {
 /* figura mercado financeiro */
 .mercado_financeiro
 {
-    position: absolute;
+    /* position: absolute; */
     width: 207px;
     height: 152px;
-    left: 1007px;
+    /* left: 1007px; */
 
     background: url("../img/mercado_financeiro.png");
 }
+
+
 #completo {
   position: absolute;
   width: 261px;
