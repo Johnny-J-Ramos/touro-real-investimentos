@@ -7,6 +7,7 @@ body {
 }
 
 .logo {
+    margin-top: 30px;
     width: 220px;
     text-align: center;
 }
@@ -18,13 +19,45 @@ body {
 
 .texto {
     text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 40px;
 }
 
-
-.start {
-
+.laranja {
+    color: #FF6600;
 }
 
+.branco {
+    color: #fff;
+}
+
+.mais {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 70px;
+    background: #EF711D;
+    border: 0;
+    font-style: normal;
+    font-weight: bolder;
+    border-radius: 25px;
+    font-size: 25px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.mais a{
+    margin: auto;
+    text-decoration: none;
+    color:#000;
+}
+
+.mais:hover {
+    background: #fff;
+}
 
 #regressiva{
     color:#000000; 
