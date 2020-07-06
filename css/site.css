@@ -502,3 +502,85 @@ body {
 .button:hover {
   background: #fff;
 }
+
+
+/* Codigo pag Obrigado */
+
+
+
+.obrigado {
+  background-image: url(../img/obrigado.png);
+  background-repeat: no-repeat;
+  
+}
+
+.inscricao p {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 55px;
+  margin-bottom: 70px;
+
+}
+
+.share {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.whats {
+  width: 475px;
+  height: 70px;
+  background-color: transparent;
+  border: 2;
+  border-color: #fff;
+  font-weight: bolder;
+  border-radius: 25px;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.whats a{
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+
+}
+
+.fab {
+  font-size: 1.25em;
+  color: #fff;
+}
+
+.duvidas {
+  font-weight: bolder;
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.mailto {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sociais ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.redes {
+  width: 55px;
+}
+
+.redes{
+  padding-right: 30px;
+}
+
