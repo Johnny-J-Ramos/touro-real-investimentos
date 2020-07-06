@@ -1,0 +1,127 @@
+body {
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+
+
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.start {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 220px;
+    text-align: center;
+}
+
+.img-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.laranja {
+    color: #FF6600;
+}
+
+.branco {
+    color: #fff;
+}
+
+.preto {
+    color:  #202020;
+}
+
+.mais {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 70px;
+    background: #EF711D;
+    border: 0;
+    font-style: normal;
+    font-weight: bolder;
+    border-radius: 25px;
+    font-size: 25px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.mais a{
+    margin: auto;
+    text-decoration: none;
+    color:#000;
+}
+
+.mais:hover {
+    background: #fff;
+}
+
+
+.box{
+    background: #383333;
+    width: 700px;
+    height: 200px;
+    border-radius:39px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+#regressiva{
+    color: #EFE162;; 
+    font-size: 70px; 
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;   
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+.texto h3 {
+    font-size: 28px;
+
+}
+
+.texto h1 {
+    font-size: 50px;
+}
+
+.faltam {
+    margin-top: 60px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo p {
+    margin-top: 70px;
+    text-align: justify;
+    max-width: 1270px;
+    font-size: 19px;
+    line-height: 45px;
+    color: #181818;
+
+}
