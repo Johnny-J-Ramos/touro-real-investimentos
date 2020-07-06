@@ -1,203 +1,331 @@
 body {
-    margin-top: 0px; 
-    margin-bottom: 0px; 
-    margin-left: 0px; 
-    margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 
-
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-
 .start {
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
 
 .logo {
-    margin-top: 30px;
-    width: 220px;
-    text-align: center;
+  margin-top: 30px;
+  width: 220px;
+  text-align: center;
 }
 
 .img-logo {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .texto {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 22px;
-    line-height: 40px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 22px;
+  line-height: 40px;
 }
 
 .laranja {
-    color: #FF6600;
+  color: #ff6600;
 }
 
 .branco {
-    color: #fff;
+  color: #fff;
 }
 
 .preto {
-    color:  #202020;
+  color: #202020;
 }
 
 .mais {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 70px;
-    background: #EF711D;
-    border: 0;
-    font-style: normal;
-    font-weight: bolder;
-    border-radius: 25px;
-    font-size: 25px;
-    line-height: 30px;
-    cursor: pointer;
-    text-align: center;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 70px;
+  background: #ef711d;
+  border: 0;
+  font-style: normal;
+  font-weight: bolder;
+  border-radius: 25px;
+  font-size: 25px;
+  line-height: 30px;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
 }
 
-.mais a{
-    margin: auto;
-    text-decoration: none;
-    color:#000;
+.mais a {
+  margin: auto;
+  text-decoration: none;
+  color: #000;
 }
 
 .mais:hover {
-    background: #fff;
+  background: #fff;
 }
 
-
-.box{
-    background: #383333;
-    width: 700px;
-    height: 200px;
-    border-radius:39px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+.box {
+  background: #383333;
+  width: 700px;
+  height: 200px;
+  border-radius: 39px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-
-#regressiva{
-    color: #EFE162;; 
-    font-size: 70px; 
-    font-family: 'Audiowide', cursive;
-    font-weight: normal;   
-    text-align: center;
-    margin: auto;
-    
-
+#regressiva {
+  color: #efe162;
+  font-size: 70px;
+  font-family: 'Audiowide', cursive;
+  font-weight: normal;
+  text-align: center;
+  margin: auto;
 }
 
 .texto h3 {
-    font-size: 28px;
-
+  font-size: 28px;
 }
 
 .texto h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .faltam {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .conteudo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .conteudo p {
-    margin-top: 70px;
-    text-align: justify;
-    max-width: 1270px;
-    font-size: 19px;
-    line-height: 45px;
-    color: #181818;
-
+  margin-top: 70px;
+  text-align: justify;
+  max-width: 1270px;
+  font-size: 19px;
+  line-height: 45px;
+  color: #181818;
 }
 
 /* estilo val */
 
 .palestrantes h3 {
-    font-weight: bolder;
-    font-size: 26px;
-    color:#EF711D;
-    margin-bottom: 60px;
+  font-weight: bolder;
+  font-size: 26px;
+  color: #ef711d;
+  margin-bottom: 60px;
 }
 
 .img-palestrantes {
-    width: 200px;
-    border-radius: 50%;
-
+  width: 200px;
+  border-radius: 50%;
 }
 
 .flex ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 .palestra {
-    text-align: center;
-    
+  text-align: center;
 }
 
 .nome {
-    font-weight: bolder;
-    font-size: 20px;
-    
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .cinza {
-    margin-top: 30px;
-    background-color: #D1D8DF;
-    width: 300px;
-    border-radius: 40px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+  margin-top: 30px;
+  background-color: #d1d8df;
+  width: 300px;
+  border-radius: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-
 @media (max-width: 600px) {
-    .box{
-        width: 400px;
-        height: 100px;
-        border-radius:20px;
-    }
-    
-    
-    #regressiva{
-        color: #EFE162;; 
-        font-size: 35px; 
-  
-    
-    }
-    
-    .conteudo p {
+  .box {
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+  }
+
+  #regressiva {
+    color: #efe162;
+    font-size: 35px;
+  }
+
+  .conteudo p {
     padding: 20px;
     font-size: 18px;
     line-height: 30px;
-    }
+  }
 
-    .flex ul {
-        display: inline;
-    }
+  .flex ul {
+    display: inline;
+  }
 
-    .img-palestrantes {
-        margin-top: 20px;
-    }
+  .img-palestrantes {
+    margin-top: 20px;
+  }
 
-    .cinza {
-        margin: 0 auto;
-    }
+  .cinza {
+    margin: 0 auto;
+  }
+}
+
+#real-q {
+  position: absolute;
+  width: 740px;
+  height: 78px;
+  left: 313px;
+  top: 3550px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+
+  color: #ff6600;
+}
+
+.quem-somos {
+  display: flex;
+
+  position: absolute;
+  width: 1271px;
+  height: 204px;
+  left: 48px;
+  top: 3848px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 45px;
+  /* or 187% */
+
+  color: #181818;
+}
+
+.pagina {
+  position: absolute;
+  width: 202px;
+  height: 202px;
+  left: 582px;
+  top: 3646px;
+
+  background: url(touroso.png);
+}
+
+.rodape {
+  position: absolute;
+  width: 1368px;
+  height: 80px;
+  left: 3px;
+  top: 4300px;
+
+  background: #333231;
+}
+
+#contato {
+  position: absolute;
+  width: 420px;
+  height: 43px;
+  left: 282px;
+  top: -40px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 45px;
+  /* or 187% */
+
+  color: #ffffff;
+}
+
+#contato2 {
+  position: absolute;
+  width: 298px;
+  height: 43px;
+  left: 941px;
+  top: -40px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 45px;
+  /* or 187% */
+
+  color: #ffffff;
+}
+
+.facebook {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 163px;
+  top: 15px;
+
+  background: url(facebook.png);
+}
+
+.instagram {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 220px;
+  top: 15px;
+
+  background: url(instagram.png);
+}
+
+.email {
+  position: absolute;
+  width: 61px;
+  height: 38px;
+  left: 866px;
+  top: 15px;
+
+  background: url(e-mail.png);
+}
+
+.coll {
+  top: 0px;
+  left: 0px;
+}
+
+.coll {
+  background: url(../img/Figura_03.png);
+
+  position: absolute;
+  width: 1376px;
+  height: 665px;
+  left: 0px;
+  top: 2915px;
+}
+
+.forn {
+  position: absolute;
+  width: 601px;
+  height: 396px;
+  left: 383px;
+  top: 3034px;
 }
