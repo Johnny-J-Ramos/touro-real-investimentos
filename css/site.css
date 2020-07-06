@@ -382,8 +382,8 @@ body {
   position: absolute;
   width: 237px;
   height: 60px;
-  left: 176px;
-  top: 120px;
+  left: 10px;
+  top: 20px;
 
   font-family: Montserrat;
   font-style: normal;
@@ -398,13 +398,17 @@ body {
 .button {
   margin: auto;
   text-decoration: none;
-  color: #000;
+
   position: absolute;
   width: 410px;
   height: 69px;
-  left: 479px;
-  top: 3361px;
+  left: 100px;
+  top: 250px;
 
   background: #ef711d;
   border-radius: 25px;
+}
+
+.button:hover {
+  background: #fff;
 }
