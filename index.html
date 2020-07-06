@@ -1,40 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/site.css">
-    <link rel="sortcut icon" href="./img/icone.jpeg" type="image/x-icon" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/site.css">
+  <link rel="sortcut icon" href="./img/icone.jpeg" type="image/x-icon" />
 
-    <title>Document</title>
+  <title>Touro Real</title>
 </head>
 
 <body>
-    <section class="start">
-        <div class="img-logo">
-            <img class="logo" src="./img/logo.png" alt="Logo Touro Real">
-        </div>
-        <div class="texto">
-            <h2 class="laranja">Webinar Gratuito</h2>
-            <h2 class="branco">Dê um start na sua </br> educação financeira!</h2>
-        </div>
-        <div class="cta">
-            <button class="mais"><a href="#">saiba mais</a></button>
-            <!-- <a href="#">saiba mais</a> -->
-        </div>
-    </section>
+  <section class="start">
+    <div class="img-logo">
+      <img class="logo" src="./img/logo.png" alt="Logo Touro Real">
+    </div>
+    <div class="texto">
+      <h2 class="laranja">Webinar Gratuito</h2>
+      <h2 class="branco">Dê um start na sua </br> educação financeira!</h2>
+    </div>  
+    <div class="cta">
+      <button class="mais"><a href="#">saiba mais</a></button>
+     </div>
+  </section>
 
-    <section>
-        <h2>Webinar ao vivo</h2>
-        <h1>Aprenda a investir como um touro!</h1>
-        <h3>08 de julho de 2020, às 19:00</h3>
+  <section>
+    <div class="texto">
+      <h3 class="laranja">Webinar ao vivo</h2>
+      <h1 class="preto">Aprenda a investir como um touro!</h1>
+      <h3 class="preto">08 de julho de 2020, às 19:00</h3>
+      <h3 class="faltam">FALTAM</h3>
+    </div>
+    
+    <div class="box">
+      <div id="regressiva"></div>
+    </div>
+    <div class="conteudo">
+      <p>Compreendemos que planejamento e educação financeira são necessidades na vida dos brasileiros, porém, ainda há uma dificuldade em iniciar em processo e até mesmo uma conversa sobre o assunto. A Touro Real surgiu para ajudar você a entender melhor sobre o seu dinheiro e a fazer investimentos fáceis e conscientes! Afinal, você não precisa ser um especialista em finanças para começar. Conheça as melhores formas de investir e alcance a tão sonhada liberdade financeira sem sair de casa.</p>
+    </div>
+  </section>
 
-        <h3>FALTAM</h3>
-        <div id="regressiva"></div>
-    </section>
+<!-- Section da Val -->
 
+  <section class="palestrantes">
+
+    <h3 class="texto">Palestrantes</h3>
+
+    <div class="flex">
+      <ul> 
+        <li class="palestra">
+          
+            <img class="img-palestrantes" src="./img/foto_teste.jpg" alt="Foto Palestrante Fulano">
+          <div class="cinza">  
+            <p class="nome">Fulano Detal</p>
+            <p>Conhecido por ser o CEO na </br> Startup de Investimentos</p>
+          </div>
+        </li>
+        <li class="palestra">
+            <img class="img-palestrantes" src="./img/foto_teste.jpg" alt="Foto do Palestrante Siclano">
+          <div class="cinza"> 
+            <p class="nome">Fulano Detal</p>
+            <p>Conhecido por ser o CEO na </br> Startup de Investimentos</p>
+          </div>  
+        </li>
+        <li class="palestra">
+          
+          <img class="img-palestrantes" src="./img/foto_teste.jpg" alt="Foto do Palestrante Juju">
+          <div class="cinza">
+            <p class="nome">Fulano Detal</p>
+            <p>Conhecido por ser o CEO na </br>Startup de Investimentos</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section class="coll">
+    
+    <div class="texto">
+      <h2 class="quero-par">Quero participar!</h2>
+          <div class="form">
+            <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label id="completo">seu nome completo: <input id="caixa-nome" type="text" name="name" /></label>   
+              </p>
+              <p>
+                <label>seu melhor e-mail: <input id="email-email" type="email" name="email" /></label>
+              </p>
+              <div class="cta">
+                <button class="button"><a href="#">inscreva-se</a></button>
+                <!-- <a href="#">saiba mais</a> -->
+              </div>
+            </form>
+          </div>
+      
+     
+    </div>  
+    
+  </section>
+
+
+
+  <section class="pagina4">
+    <img class="pagina" src="./img/logo.png">
+      <h1 id="real-q">Quem é a Touro Real?</h1>    
+          <div class="somos">
+                <p class="quem-somos">Compreendemos que planejamento e educação financeira são necessidades na vida dos brasileiros, porém, ainda há uma dificuldade em iniciar em processo e até mesmo uma conversa sobre o assunto.
+                O Touro Real surgiu para ajudar você a entender melhor sobre o seu dinheiro e a fazer investimentos fáceis e conscientes!
+                Afinal, você não precisa ser um especialista em finanças para começar. Conheça as melhores formas de investir e alcance a tão sonhada liberdade financeira sem sair de casa.
+                </p>
+            <footer class="rodape">
+                <img class="facebook" src="./img/logo Facebook.png" alt="logo facebook" >
+                <img class="instagram" src="./img/logo Instagram.png" alt="logo instagram" >
+                <img class="email" src="./img/ícone e-mail.png" alt="logo email" >
+              <h6 id="contato">entre em contato conosco!</h6>
+              <h6 id="contato2">fred@touroreal.com.br</h6>
+            
+            </footer>
+        </div>
+</section>
+
+
+
+  <script src="./js/javascript.js"></script>
+</body>
+</html>
 
     <section class="figura_02">
         <h1 class="subtitulopaginestewebinar">Neste webnar você vai aprender sobre:</h1>

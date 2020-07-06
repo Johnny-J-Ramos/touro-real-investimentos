@@ -1,5 +1,5 @@
 
-var eventDate = new Date("July 8, 2020 20:00:00").getTime();
+var eventDate = new Date("July 8, 2020 19:00:00").getTime();
 
 // A cada 1s a regressiva dá update 
 var contador = setInterval(function() {
@@ -16,8 +16,7 @@ var contador = setInterval(function() {
   var segundos = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Contador aparece na tela
-  document.getElementById("regressiva").innerHTML = dias + "d " + horas + "h "
-  + minutos + "m " + segundos + "s ";
+  document.getElementById("regressiva").innerHTML = dias + "d " + horas + "h " + minutos + "m "  + segundos + "s ";
 
   // Quando acaba a regressiva
   if (distance < 0) {
