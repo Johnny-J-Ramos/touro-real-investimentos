@@ -125,3 +125,61 @@ body {
     color: #181818;
 
 }
+
+/* estilo val */
+
+.palestrantes h3 {
+    font-weight: bolder;
+    font-size: 26px;
+    color:#EF711D;
+    margin-bottom: 60px;
+}
+
+.img-palestrantes {
+    width: 200px;
+    border-radius: 50%;
+    /* position: absolute; */
+
+}
+
+.flex ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.palestra {
+    text-align: center;
+    
+}
+
+.nome {
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.cinza {
+    margin-top: 30px;
+    background-color: #D1D8DF;
+    width: 300px;
+    border-radius: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* display: flex;
+justify-content: center;
+width: 300px;
+height: 70px;
+background: #EF711D;
+border: 0;
+font-style: normal;
+font-weight: bolder;
+border-radius: 25px;
+font-size: 25px;
+line-height: 30px;
+cursor: pointer;
+text-align: center;
+margin: auto; */
