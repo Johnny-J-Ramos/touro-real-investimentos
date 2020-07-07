@@ -320,12 +320,14 @@ body {
 
 /* figura background segunda pagina */
 .figura_02 {
-  width: 1376px;
+  /* width: 1376px;
   height: 666px;
   left: 0px;
-  top: 1589px;
+  top: 1589px; */
 
   background: url('../img/Figura_02.png');
+  
+
 }
 
 /*subtitulo Neste webinar você vai aprender sobre: */
@@ -339,25 +341,24 @@ body {
 
   color: #ef711d;
 
-  margin-top: 80px;
+  padding-top: 50px;
 }
 
 /* figura organização financeira */
 .organizacao_financeira {
-  position: relative;
+  /* position: relative; */
   width: 170px;
   height: 164px;
-
-  background: url ('../img/organizacao_financeira.png');
 }
 .container-img {
-  width: 30%;
-  float: left;
+
+  /* width: 30%;
+  float: left; */
   text-align: center;
 }
 
 .container-text {
-  display: block;
+  /* display: block; */
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -368,6 +369,7 @@ body {
 
 .imagens-alinhamento {
   display: flex;
+  justify-content: space-around;
   margin-top: 145px;
 }
 
@@ -387,8 +389,10 @@ body {
   width: 207px;
   height: 152px;
   /* left: 1007px; */
+}
 
-  background: url('../img/mercado_financeiro.png');
+.blank {
+  height: 40px;
 }
 
 .button {
@@ -540,7 +544,10 @@ body {
   }
   
   
-
+  .imagens-alinhamento {
+    display: inline;
+    margin-top: 30px;
+  }
 
 
 }
