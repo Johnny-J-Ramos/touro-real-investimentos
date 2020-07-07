@@ -1,5 +1,5 @@
 
-var eventDate = new Date("July 8, 2020 19:00:00").getTime();
+var eventDate = new Date("July 8, 2020 20:00:00").getTime();
 
 // A cada 1s a regressiva dá update 
 var contador = setInterval(function() {

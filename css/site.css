@@ -130,7 +130,9 @@ body {
 
 .img-palestrantes {
   width: 200px;
+  height: 220px;
   border-radius: 50%;
+  margin-top: 20px;
 }
 
 .flex ul {
@@ -522,10 +524,6 @@ body {
 
   .flex ul {
     display: inline;
-  }
-
-  .img-palestrantes {
-    margin-top: 20px;
   }
 
   .cinza {
