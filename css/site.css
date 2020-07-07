@@ -343,14 +343,6 @@ height: 100vh; */
   color: #ff6600;
 }
 
-/* .form {
-  position: absolute;
-  width: 601px;
-  height: 396px;
-  left: 383px;
-  top: 200px;
-} */
-
 .form-caixa {
   width: 100%;
   display: flex;
