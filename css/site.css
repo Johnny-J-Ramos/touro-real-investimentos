@@ -156,6 +156,12 @@ body {
   padding-top: 10px;
 }
 
+.sobre {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 @media (max-width: 600px) {
   .box {
     width: 400px;
@@ -504,7 +510,7 @@ body {
 }
 
 
-/* Codigo pag Obrigado */
+/* Estilo pag Obrigado */
 
 
 
