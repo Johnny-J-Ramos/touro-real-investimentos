@@ -12,13 +12,9 @@ body {
 }
 
 .start {
-    <<<<<<< HEAD background-image: url(../img/bg.png);
-    /* width: 100vw;
-  height: 100vh; */
-    =======background-image: url(../img/bg.png);
+    background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    >>>>>>>176f46d566a38ebd573ef71b1a2d602e47a47641
 }
 
 .logo {
