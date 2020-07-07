@@ -1,556 +1,527 @@
 body {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .inicial {
-  width: 100%;
+    width: 100%;
 }
 
 .start {
-  background-image: url(../img/bg.png);
-  /* width: 100vw;
+    background-image: url(../img/bg.png);
+    /* width: 100vw;
   height: 100vh; */
 }
 
 .logo {
-  margin-top: 30px;
-  width: 220px;
-  text-align: center;
+    margin-top: 30px;
+    width: 220px;
+    text-align: center;
 }
 
 .img-logo {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .texto {
-  text-align: center;
-  font-weight: bolder;
-  font-size: 22px;
-  line-height: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 40px;
 }
 
 .laranja {
-  color: #ff6600;
+    color: #ff6600;
 }
 
 .branco {
-  color: #fff;
+    color: #fff;
 }
 
 .preto {
-  color: #202020;
+    color: #202020;
 }
 
 .mais {
-  display: flex;
-  justify-content: center;
-  width: 300px;
-  height: 70px;
-  background: #ef711d;
-  border: 0;
-  font-style: normal;
-  font-weight: bolder;
-  border-radius: 25px;
-  font-size: 25px;
-  line-height: 30px;
-  cursor: pointer;
-  text-align: center;
-  margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 70px;
+    background: #ef711d;
+    border: 0;
+    font-style: normal;
+    font-weight: bolder;
+    border-radius: 25px;
+    font-size: 25px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
 }
 
 .mais a {
-  margin: auto;
-  text-decoration: none;
-  color: #000;
+    margin: auto;
+    text-decoration: none;
+    color: #000;
 }
 
 .mais:hover {
-  background: #fff;
+    background: #fff;
 }
 
 .box {
-  background: #383333;
-  width: 700px;
-  height: 200px;
-  border-radius: 39px;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+    background: #383333;
+    width: 700px;
+    height: 200px;
+    border-radius: 39px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 #regressiva {
-  color: #efe162;
-  font-size: 70px;
-  font-family: 'Audiowide', cursive;
-  font-weight: normal;
-  text-align: center;
-  margin: auto;
+    color: #efe162;
+    font-size: 70px;
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
 }
 
 .texto h3 {
-  font-size: 28px;
+    font-size: 28px;
 }
 
 .texto h1 {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 .faltam {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 .conteudo {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .conteudo p {
-  margin-top: 70px;
-  text-align: justify;
-  max-width: 1270px;
-  font-size: 19px;
-  line-height: 45px;
-  color: #181818;
+    margin-top: 70px;
+    text-align: justify;
+    max-width: 1270px;
+    font-size: 19px;
+    line-height: 45px;
+    color: #181818;
 }
 
 .palestrantes h3 {
-  font-weight: bolder;
-  font-size: 26px;
-  color: #ef711d;
-  margin-bottom: 60px;
+    font-weight: bolder;
+    font-size: 26px;
+    color: #ef711d;
+    margin-bottom: 60px;
 }
 
 .img-palestrantes {
-  width: 200px;
-  border-radius: 50%;
+    width: 200px;
+    border-radius: 50%;
 }
 
 .flex ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 .palestra {
-  text-align: center;
+    text-align: center;
 }
 
 .nome {
-  font-weight: bolder;
-  font-size: 20px;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .cinza {
-  margin-top: 30px;
-  background-color: #d1d8df;
-  width: 300px;
-  border-radius: 40px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+    margin-top: 30px;
+    background-color: #d1d8df;
+    width: 300px;
+    border-radius: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .sobre {
-  text-align: justify;
-  padding-left: 10px;
-  padding-right: 10px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #real-q {
-  text-align: center;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 59px;
-  text-align: center;
-
-  color: #ff6600;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #ff6600;
 }
 
 .somos {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .quem-somos {
-
-  max-width: 1270px;
-  text-align: justify;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 45px;
-  
-
-  color: #181818;
+    max-width: 1270px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 45px;
+    color: #181818;
 }
 
 .pagina {
-  background: url(touroso.png);
-  display: flex;
-  justify-content: center;
+    background: url(touroso.png);
+    display: flex;
+    justify-content: center;
 }
 
-.pagina img{
-  width: 202px;
+.pagina img {
+    width: 202px;
 }
-
 
 .rodape {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 80px;
-  background: #333231;
-
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: #333231;
 }
 
 .rodape span {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-
-
 #contato {
-  width: 420px;
-  height: 43px;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 45px;
-
-  color: #ffffff;
+    width: 420px;
+    height: 43px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 45px;
+    color: #ffffff;
 }
 
 #contato2 {
-  width: 298px;
-  height: 43px;
-  left: 941px;
-  top: -40px;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 45px;
-  /* or 187% */
-
-  color: #ffffff;
+    width: 298px;
+    height: 43px;
+    left: 941px;
+    top: -40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 45px;
+    /* or 187% */
+    color: #ffffff;
 }
 
 .facebook {
-  width: 43px;
-  height: 43px;
-  left: 163px;
-  top: 15px;
-  margin-right: 15px;
-  background: url(facebook.png);
+    width: 43px;
+    height: 43px;
+    left: 163px;
+    top: 15px;
+    margin-right: 15px;
+    background: url(facebook.png);
 }
 
 .instagram {
-  width: 43px;
-  height: 43px;
-  left: 220px;
-  top: 15px;
-  margin-right: 15px;
-  background: url(instagram.png);
+    width: 43px;
+    height: 43px;
+    left: 220px;
+    top: 15px;
+    margin-right: 15px;
+    background: url(instagram.png);
 }
 
 .email {
-
-  width: 61px;
-  height: 38px;
-  left: 866px;
-  top: 15px;
-  margin-right: 15px;
-  background: url(e-mail.png);
+    width: 61px;
+    height: 38px;
+    left: 866px;
+    top: 15px;
+    margin-right: 15px;
+    background: url(e-mail.png);
 }
 
 .coll {
-  background: url(../img/Figura_03.png);
-
+    background: url(../img/Figura_03.png);
 }
+
 .quero-par {
-  margin-top: 50px;
-  padding-top: 30px;
-  margin-bottom: 70px;
-  text-align: center;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 59px;
-  text-align: center;
-
-  color: #ff6600;
+    margin-top: 50px;
+    padding-top: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #ff6600;
 }
 
 .form-caixa {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .form {
-  width: 435px;
-  color: #fff;
+    width: 435px;
+    color: #fff;
 }
 
 #caixa-nome {
-  width: 430px;
-  margin-bottom: 20px;
-  height: 60px;
+    width: 430px;
+    margin-bottom: 20px;
+    height: 60px;
 }
 
 #email-email {
-  width: 430px;
-  height: 60px;
+    width: 430px;
+    height: 60px;
 }
 
+
 /* figura background segunda pagina */
+
 .figura_02 {
-  /* width: 1376px;
+    /* width: 1376px;
   height: 666px;
   left: 0px;
   top: 1589px; */
-
-  background: url('../img/Figura_02.png');
-  
-
+    background: url('../img/Figura_02.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 
 /*subtitulo Neste webinar você vai aprender sobre: */
+
 .subtitulopaginestewebinar {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 59px;
-  text-align: center;
-
-  color: #ef711d;
-
-  padding-top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #ef711d;
+    padding-top: 50px;
 }
+
 
 /* figura organização financeira */
-.organizacao_financeira {
-  /* position: relative; */
-  width: 170px;
-  height: 164px;
-}
-.container-img {
 
-  /* width: 30%;
+.organizacao_financeira {
+    /* position: relative; */
+    width: 170px;
+    height: 164px;
+}
+
+.container-img {
+    /* width: 30%;
   float: left; */
-  text-align: center;
+    text-align: center;
 }
 
 .container-text {
-  /* display: block; */
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 34px;
-  text-align: center;
+    /* display: block; */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
 }
 
 .imagens-alinhamento {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 145px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 145px;
 }
+
 
 /* figura investimentos diversos */
-.investimentos_diversos {
-  /* position: absolute; */
-  width: 207px;
-  height: 152px;
-  /* left: 580px; */
 
-  background: url ('../img/investimentos_diversos.png');
+.investimentos_diversos {
+    /* position: absolute; */
+    width: 207px;
+    height: 152px;
+    /* left: 580px; */
+    background: url ('../img/investimentos_diversos.png');
 }
 
+
 /* figura mercado financeiro */
+
 .mercado_financeiro {
-  /* position: absolute; */
-  width: 207px;
-  height: 152px;
-  /* left: 1007px; */
+    /* position: absolute; */
+    width: 207px;
+    height: 152px;
+    /* left: 1007px; */
 }
 
 .blank {
-  height: 40px;
+    height: 40px;
 }
 
 .button {
-  margin-top: 40px;
-
-  text-decoration: none;
-  font-weight: bolder;
-  color: #000;
-
-  display: flex;
-  justify-content: center;
-
-
-  width: 410px;
-  height: 69px;
-
-  margin-left:15px; 
-  margin-bottom: 70px;
-  background: #ef711d;
-  border-radius: 25px;
+    margin-top: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    width: 410px;
+    height: 69px;
+    margin-left: 15px;
+    margin-bottom: 70px;
+    background: #ef711d;
+    border-radius: 25px;
 }
 
 .button:hover {
-  background: #fff;
+    background: #fff;
 }
-
 
 
 /* Codigo pag Obrigado */
 
 .obrigado {
-  background-image: url(../img/obrigado.png);
-  background-repeat: no-repeat;
+    background-image: url(../img/obrigado.png);
+    background-repeat: no-repeat;
 }
 
 .inscricao p {
-  text-align: center;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 55px;
-  margin-bottom: 70px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 55px;
+    margin-bottom: 70px;
 }
 
 .share {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .whats {
-  width: 475px;
-  height: 70px;
-  background-color: transparent;
-  border: 2;
-  border-color: #fff;
-  font-weight: bolder;
-  border-radius: 25px;
-  font-size: 25px;
-  line-height: 30px;
-  text-align: center;
+    width: 475px;
+    height: 70px;
+    background-color: transparent;
+    border: 2;
+    border-color: #fff;
+    font-weight: bolder;
+    border-radius: 25px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .whats a {
-  text-decoration: none;
-  color: #fff;
-  padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
 }
 
 .fab {
-  font-size: 1.25em;
-  color: #fff;
+    font-size: 1.25em;
+    color: #fff;
 }
 
 .duvidas {
-  font-weight: bolder;
-  margin-top: 100px;
-  text-align: center;
-  color: #fff;
+    font-weight: bolder;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
 }
 
 .mailto {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 .sociais ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin-top: 50px;
-  padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .redes {
-  width: 55px;
+    width: 55px;
 }
 
 .redes {
-  padding-right: 30px;
+    padding-right: 30px;
 }
-
 
 @media (max-width: 600px) {
-  .box {
-    width: 400px;
-    height: 100px;
-    border-radius: 20px;
-  }
-
-  #regressiva {
-    color: #efe162;
-    font-size: 35px;
-  }
-
-  .conteudo p {
-    padding: 20px;
-    font-size: 18px;
-    line-height: 30px;
-  }
-
-  .flex ul {
-    display: inline;
-  }
-
-  .img-palestrantes {
-    margin-top: 20px;
-  }
-
-  .cinza {
-    margin: 0 auto;
-  }
-
-  .quem-somos {
-    padding: 20px;
-    font-size: 18px;
-    line-height: 30px;
-  }
-
-  .rodape {
-    display: block;
-    height: 150px;
-  
-  }
-  
-  .rodape span {
-    display: flex;
-    align-items: center;
-  }
-  
-  
-  .imagens-alinhamento {
-    display: inline;
-    margin-top: 30px;
-  }
-
-
+    .box {
+        width: 400px;
+        height: 100px;
+        border-radius: 20px;
+    }
+    #regressiva {
+        color: #efe162;
+        font-size: 35px;
+    }
+    .conteudo p {
+        padding: 20px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .flex ul {
+        display: inline;
+    }
+    .img-palestrantes {
+        margin-top: 20px;
+    }
+    .cinza {
+        margin: 0 auto;
+    }
+    .quem-somos {
+        padding: 20px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .rodape {
+        display: block;
+        height: 150px;
+    }
+    .rodape span {
+        display: flex;
+        align-items: center;
+    }
+    .imagens-alinhamento {
+        display: inline;
+        margin-top: 30px;
+    }
 }
