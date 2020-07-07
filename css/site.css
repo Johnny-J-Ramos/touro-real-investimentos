@@ -14,8 +14,8 @@ body {
 
 .start {
   background-image: url(../img/bg.png);
-  /* width: 100vw;
-  height: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo {
@@ -281,6 +281,8 @@ body {
 
 .coll {
   background: url(../img/Figura_03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .quero-par {
@@ -329,7 +331,8 @@ body {
   top: 1589px; */
 
   background: url('../img/Figura_02.png');
-  
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
