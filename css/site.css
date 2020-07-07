@@ -316,18 +316,22 @@ body {
 .coll {
   background: url(../img/Figura_03.png);
 
-  position: absolute;
-  width: 1376px;
-  height: 665px;
-  left: 0px;
-  top: 2915px;
 }
+
+/* background-image: url(../img/bg.png);
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh; */
+
+
+
+
+
 .quero-par {
-  position: absolute;
-  width: 601px;
-  height: 233px;
-  left: 383px;
-  top: 100px;
+  margin-top: 50px;
+  padding-top: 30px;
+  margin-bottom: 70px;
+  text-align: center;
 
   font-family: Montserrat;
   font-style: normal;
@@ -339,12 +343,34 @@ body {
   color: #ff6600;
 }
 
-.form {
+/* .form {
   position: absolute;
   width: 601px;
   height: 396px;
   left: 383px;
   top: 200px;
+} */
+
+.form-caixa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 435px;
+  color: #fff;
+}
+
+#caixa-nome {
+  width: 430px;
+  margin-bottom: 20px;
+  height: 60px;
+}
+
+#email-email {
+  width: 430px;
+  height: 60px;
 }
 
 /* figura background segunda pagina */
@@ -428,7 +454,7 @@ body {
   background: url('../img/mercado_financeiro.png');
 }
 
-#completo {
+/* #completo {
   position: absolute;
   width: 261px;
   height: 60px;
@@ -475,18 +501,24 @@ body {
   text-align: center;
 
   color: #ffffff;
-}
+} */
 
 .button {
-  margin: auto;
-  text-decoration: none;
+  margin-top: 40px;
 
-  position: absolute;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000;
+
+  display: flex;
+  justify-content: center;
+
+
   width: 410px;
   height: 69px;
-  left: 100px;
-  top: 250px;
 
+  margin-left:15px; 
+  margin-bottom: 70px;
   background: #ef711d;
   border-radius: 25px;
 }
@@ -495,12 +527,9 @@ body {
   background: #fff;
 }
 
-<<<<<<< HEAD
-/* Codigo pag Obrigado */
-=======
 
-/* Estilo pag Obrigado */
->>>>>>> 3355ba2b782f08ce1e24438798883ea235952c26
+
+/* Codigo pag Obrigado */
 
 .obrigado {
   background-image: url(../img/obrigado.png);
