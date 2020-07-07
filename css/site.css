@@ -8,9 +8,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.inicial {
+  width: 100%;
+}
+
 .start {
   background-image: url(../img/bg.png);
-  background-repeat: no-repeat;
   /* width: 100vw;
   height: 100vh; */
 }
