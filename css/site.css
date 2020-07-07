@@ -314,11 +314,6 @@ body {
 }
 
 .coll {
-  top: 0px;
-  left: 0px;
-}
-
-.coll {
   background: url(../img/Figura_03.png);
 
   position: absolute;
@@ -353,56 +348,52 @@ body {
 }
 
 /* figura background segunda pagina */
-.figura_02
-{
-    width: 1376px;
-    height: 666px;
-    left: 0px;
-    top: 1589px;
-    
-    background: url("../img/Figura_02.png");
+.figura_02 {
+  width: 1376px;
+  height: 666px;
+  left: 0px;
+  top: 1589px;
+
+  background: url('../img/Figura_02.png');
 }
 
 /*subtitulo Neste webinar você vai aprender sobre: */
-.subtitulopaginestewebinar
-{
-    /* position: absolute;
+.subtitulopaginestewebinar {
+  /* position: absolute;
     width: 1372px;
     height: 267px;
     left: 4px;
     top: 1669px; */
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 59px;
-    text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
 
-    color: #EF711D;
+  color: #ef711d;
 
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 /* figura organização financeira */
-.organizacao_financeira
-{
-    position: relative;
-    width: 170px;
-    height: 164px;
-    /* left: 0px;
+.organizacao_financeira {
+  position: relative;
+  width: 170px;
+  height: 164px;
+  /* left: 0px;
     top: 1589px; */
 
-    background: url ("../img/organizacao_financeira.png");
+  background: url ('../img/organizacao_financeira.png');
 }
-.container-img{
+.container-img {
   width: 30%;
   float: left;
   text-align: center;
 }
 
-.container-text
-{
+.container-text {
   display: block;
   font-family: Montserrat;
   font-style: normal;
@@ -410,37 +401,32 @@ body {
   font-size: 28px;
   line-height: 34px;
   text-align: center;
-
 }
 
-.imagens-alinhamento
-{  
+.imagens-alinhamento {
   display: flex;
   margin-top: 145px;
 }
-    
-/* figura investimentos diversos */
-.investimentos_diversos
-{
-    /* position: absolute; */
-    width: 207px;
-    height: 152px;
-    /* left: 580px; */
 
-    background: url ("../img/investimentos_diversos.png");
+/* figura investimentos diversos */
+.investimentos_diversos {
+  /* position: absolute; */
+  width: 207px;
+  height: 152px;
+  /* left: 580px; */
+
+  background: url ('../img/investimentos_diversos.png');
 }
 
 /* figura mercado financeiro */
-.mercado_financeiro
-{
-    /* position: absolute; */
-    width: 207px;
-    height: 152px;
-    /* left: 1007px; */
+.mercado_financeiro {
+  /* position: absolute; */
+  width: 207px;
+  height: 152px;
+  /* left: 1007px; */
 
-    background: url("../img/mercado_financeiro.png");
+  background: url('../img/mercado_financeiro.png');
 }
-
 
 #completo {
   position: absolute;
@@ -509,15 +495,16 @@ body {
   background: #fff;
 }
 
+<<<<<<< HEAD
+/* Codigo pag Obrigado */
+=======
 
 /* Estilo pag Obrigado */
-
-
+>>>>>>> 3355ba2b782f08ce1e24438798883ea235952c26
 
 .obrigado {
   background-image: url(../img/obrigado.png);
   background-repeat: no-repeat;
-  
 }
 
 .inscricao p {
@@ -527,14 +514,12 @@ body {
   font-size: 25px;
   line-height: 55px;
   margin-bottom: 70px;
-
 }
 
 .share {
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 
 .whats {
@@ -550,11 +535,10 @@ body {
   text-align: center;
 }
 
-.whats a{
+.whats a {
   text-decoration: none;
   color: #fff;
   padding: 20px;
-
 }
 
 .fab {
@@ -586,7 +570,6 @@ body {
   width: 55px;
 }
 
-.redes{
+.redes {
   padding-right: 30px;
 }
-
