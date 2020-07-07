@@ -156,6 +156,12 @@ body {
   padding-top: 10px;
 }
 
+.sobre {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 @media (max-width: 600px) {
   .box {
     width: 400px;
@@ -489,7 +495,12 @@ body {
   background: #fff;
 }
 
+<<<<<<< HEAD
 /* Codigo pag Obrigado */
+=======
+
+/* Estilo pag Obrigado */
+>>>>>>> 3355ba2b782f08ce1e24438798883ea235952c26
 
 .obrigado {
   background-image: url(../img/obrigado.png);
