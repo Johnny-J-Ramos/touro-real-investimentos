@@ -12,9 +12,13 @@ body {
 }
 
 .start {
-    background-image: url(../img/bg.png);
+    <<<<<<< HEAD background-image: url(../img/bg.png);
     /* width: 100vw;
   height: 100vh; */
+    =======background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    >>>>>>>176f46d566a38ebd573ef71b1a2d602e47a47641
 }
 
 .logo {
@@ -267,6 +271,8 @@ body {
 
 .coll {
     background: url(../img/Figura_03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .quero-par {
