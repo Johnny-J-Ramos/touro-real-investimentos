@@ -384,10 +384,8 @@ body {
 /* figura mercado financeiro */
 
 .mercado_financeiro {
-    /* position: absolute; */
     width: 207px;
     height: 152px;
-    /* left: 1007px; */
 }
 
 .blank {
@@ -396,9 +394,9 @@ body {
 
 .button {
     margin-top: 40px;
-    text-decoration: none;
+    font-size: 25px ;
     font-weight: bolder;
-    color: #000;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     width: 410px;
@@ -407,12 +405,13 @@ body {
     margin-bottom: 70px;
     background: #ef711d;
     border-radius: 25px;
+    cursor: pointer;
 }
+
 
 .button:hover {
     background: #fff;
 }
-
 
 /* Codigo pag Obrigado */
 
@@ -514,6 +513,18 @@ body {
         margin: 0 auto;
       }
     
+      
+        #caixa-nome {
+        width: 400px;
+        height: 50px;
+        }
+
+        #email-email {
+        width: 400px;
+        height: 50px;
+        }
+
+
       .quem-somos {
         padding: 20px;
         font-size: 18px;

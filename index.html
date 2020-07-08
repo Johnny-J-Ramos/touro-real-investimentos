@@ -125,16 +125,19 @@
       <h2 class="quero-par">Quero participar!</h2>
           <div class="form-caixa">
             <div class="form">
-              <form name="contact" method="POST" data-netlify="true">
+              <form name="contact" action="obrigado.html" method="POST" data-netlify="true">
                 <div>
-                  <label id="completo">seu nome completo: <input id="caixa-nome" type="text" name="name" required="" /></label>   
+                  <label id="completo">seu nome completo:</label>
+                  <input id="caixa-nome" type="text" name="name" required>   
                 </div>
                 <div>
-                  <label id="melhor-email">seu melhor e-mail: <input id="email-email" type="email" name="email" required="" /></label>
+                  <label id="melhor-email">seu melhor e-mail:</label>
+                  <input id="email-email" type="email" name="email" required>
                 </div>
                 <div class="cta">
-                  <a class="button" href="./obrigado.html">inscrever</a>
-                  <!-- <a href="#">saiba mais</a> -->
+                  <button class="button" type="submit">inscrever</button>
+              
+
                 </div>
               </form>
             </div>  
