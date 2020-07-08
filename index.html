@@ -27,6 +27,32 @@
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 
+<script type="text/javascript" src="./js/bioep.js"></script>
+<script type="text/javascript">
+    bioEp.init({
+        html: '<div id="bio_ep_content">' +
+                '<img src="" alt="" />' +
+                '<span>Você ainda não fez a sua inscrição!</span>' +
+                '<span>Cadastre-se agora e participe do nosso evento gratuitamente:</span>' +
+                '<span></span>' +
+                '<label>seu melhor e-mail</label>' +
+                '<input type="email" nome="email" required>' +
+                '<a href="http:touroreal.com.br" class="bio_btn">CLIQUE AQUI</a>' +
+                '</div>',
+        css: '#bio_ep {width: 563px; height: 312px; color: #fff; border-radius: 37px; background: #464646; text-align: center;}' +
+                '#bio_ep_content {padding: 80px 0 0 0; font-family: "Titillium Web";}' +
+                '#bio_ep_content span:nth-child(2) {display: block; color: #fff; font-size: 32px; font-weight: 600;}' +
+                '#bio_ep_content span:nth-child(3) {display: block; font-size: 16px;}' +
+                '#bio_ep_content span:nth-child(4) {display: block; margin: -5px 0 0 0; font-size: 16px; font-weight: 600;}' +
+              /*button*/  '.bio_btn {display: inline-block; margin: 18px 0 0 0; padding: 10px; color: black; font-size: 14px; font-weight: 600; background-color: #EF711D; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; border-radius: 0; text-decoration: none;}',
+        fonts: ['//fonts.googleapis.com/css?family=Titillium+Web:300,400,600'],
+        cookieExp: 0
+    });
+</script>
+
+
+
+
     <title>Touro Real</title>
 </head>
 
