@@ -1,5 +1,5 @@
 
-var eventDate = new Date("July 8, 2020 20:00:00").getTime();
+var eventDate = new Date("July 8, 2020 14:00:00").getTime();
 
 // A cada 1s a regressiva dá update 
 var contador = setInterval(function() {
@@ -19,8 +19,8 @@ var contador = setInterval(function() {
   document.getElementById("regressiva").innerHTML = dias + "d " + horas + "h " + minutos + "m "  + segundos + "s ";
 
   // Quando acaba a regressiva
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("regressiva").innerHTML = "Nossa live já ocorreu, fique por dentro em https://";
-  }
+  // if (distance < 0) {
+  //   clearInterval(eventDate);
+  //   document.getElementById("regressiva").innerHTML = "Nossa live já ocorreu, fique por dentro https://www.youtube.com/watch?v=fHVDP7eZzUc";
+  // }
 }, 1000);
