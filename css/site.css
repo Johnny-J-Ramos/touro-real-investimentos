@@ -129,8 +129,10 @@ body {
 }
 
 .img-palestrantes {
-    width: 200px;
-    border-radius: 50%;
+  width: 200px;
+  height: 220px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 
 .flex ul {
@@ -487,6 +489,57 @@ body {
 }
 
 @media (max-width: 600px) {
+<<<<<<< HEAD
+  .box {
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+  }
+
+  #regressiva {
+    color: #efe162;
+    font-size: 35px;
+  }
+
+  .conteudo p {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .flex ul {
+    display: inline;
+  }
+
+  .cinza {
+    margin: 0 auto;
+  }
+
+  .quem-somos {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .rodape {
+    display: block;
+    height: 150px;
+  
+  }
+  
+  .rodape span {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .imagens-alinhamento {
+    display: inline;
+    margin-top: 30px;
+  }
+
+
+=======
     .box {
         width: 400px;
         height: 100px;
@@ -527,4 +580,5 @@ body {
         display: inline;
         margin-top: 30px;
     }
+>>>>>>> 22c3ea0c9c5f89673840835df9dec640ca740ead
 }
