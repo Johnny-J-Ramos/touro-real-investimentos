@@ -418,6 +418,7 @@ body {
 .obrigado {
     background-image: url(../img/obrigado.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .inscricao p {
