@@ -4,6 +4,8 @@
   <img align="center" src="img/logo_final_preto.png" width=250> <br> <sub> Show me the networking </sub>
 </p>
 
+## Show me the networking
+
 ## Objetivo
 <p align="center">
     <br> <sub> Atingir 1.000 visualizações através da realização de um evento online cuja temática tenha relação com a persona da empresa representada, neste case a Smarttbot </sub>
