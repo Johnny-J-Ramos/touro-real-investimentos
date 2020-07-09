@@ -1,7 +1,7 @@
 # TOURO REAL INVESTIMENTOS
 
 <p align="center">
-  <img align="center" src="img/touro.grande.branco.png" width=250> <br> <sub> Show me the networking </sub>
+  <img align="center" src="img/logo_touroreal_preto.png" width=250> <br> <sub> Show me the networking </sub>
 </p>
 
 ## Integrantes Touro Real Investimentos
