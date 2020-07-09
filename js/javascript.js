@@ -18,7 +18,7 @@ var contador = setInterval(function() {
   // Contador aparece na tela
   document.getElementById("regressiva").innerHTML = dias + "d " + horas + "h " + minutos + "m "  + segundos + "s ";
 
-  // Quando acaba a regressiva
+  // Quando acaba a regressiva <<<< não funcionou como queria
   // if (distance < 0) {
   //   clearInterval(eventDate);
   //   document.getElementById("regressiva").innerHTML = "Nossa live já ocorreu, fique por dentro https://www.youtube.com/watch?v=fHVDP7eZzUc";
