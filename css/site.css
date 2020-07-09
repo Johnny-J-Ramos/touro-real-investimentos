@@ -456,7 +456,6 @@ body {
 
 .obrigado {
     background-image: url(../img/obrigado.png);
-    opacity: 0.8;
     background-repeat: no-repeat;
     background-size: cover;
 }
