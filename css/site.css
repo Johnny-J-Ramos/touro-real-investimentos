@@ -332,19 +332,19 @@ body {
     justify-content: center;
 }
 
-.form {
+form {
     width: 435px;
     color: #fff;
 }
 
 #caixa-nome {
-    width: 430px;
+    width: 420px;
     margin-bottom: 20px;
     height: 60px;
 }
 
 #email-email {
-    width: 430px;
+    width: 420px;
     height: 60px;
 }
 
