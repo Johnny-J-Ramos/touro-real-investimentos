@@ -1,10 +1,10 @@
 # TOURO REAL INVESTIMENTOS
 
 <p align="center">
-  <img align="center" src="img/logo_final_preto.png" width=250> <br> <sub> Show me the networking </sub>
+  <img align="center" src="img/logo_final_preto.png" width=250> <br>
 </p>
 
-## Show me the networking
+### Show me the networking
 
 ## Objetivo
 <p align="center">
